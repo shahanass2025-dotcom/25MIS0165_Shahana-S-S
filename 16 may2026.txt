@@ -1,0 +1,51 @@
+ShoW DAtaBAsEs;
+ 
+ create database vitCamPUS;
+ use vitCamPUS;
+ 
+ create table CSE(
+ sid int8,
+ sname varchar(50),
+ smarks int1
+ );
+  create table Mech(
+ sid int8,
+ sname varchar(50),
+ smarks int1
+ );
+  create table EEE(
+ sid int8,
+ sname varchar(50),
+ smarks int1
+ );
+ 
+ show tables from vitcampus;
+ 
+ select * from cse;
+ 
+ insert into cse values (109, 'Kiran',99);
+ insert into cse values (101, 'shahana ',100);
+ insert into cse values (102, 'riya',33);
+ insert into cse values (104, 'dharani',55);
+ insert into cse values (105, 'siva',44);
+ create table ec(
+ marks int,
+ regno int,
+ total int
+ );
+ insert into ec values (10, 101,500);
+ insert into ec values (99, 102,600);
+ insert into ec values (89, 103,450);
+ insert into ec values (55, 104,550);
+ insert into ec values (88, 105,200);
+  create table itdep(
+ cgpa int,
+ attendence int,
+ marks int
+ );
+ insert into itdep values (10, 75,99);
+ insert into itdep values (9, 98,95);
+ insert into itdep values (8, 79,80);
+ insert into itdep values (8, 60,88);
+ insert into itdep values (9, 85,77);
+ 
