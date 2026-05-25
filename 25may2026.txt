@@ -1,0 +1,8 @@
+db.createCollection("Student")
+show collection
+db.Student.drop()
+show collections 
+db.createCollection("Employee")
+db.Employee.insert({name:'shahana',department:'cse'})
+db.Employee.insert({name:'dharu'})
+db.Employee.find()
