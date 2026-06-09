@@ -1,0 +1,54 @@
+Microsoft Windows [Version 10.0.26200.8457]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\shaha>C:\data\db0
+The filename, directory name, or volume label syntax is incorrect.
+
+C:\Users\shaha>C:\data\db1
+The filename, directory name, or volume label syntax is incorrect.
+
+C:\Users\shaha>C:\data\db2
+The filename, directory name, or volume label syntax is incorrect.
+
+C:\Users\shaha>"C:\Program Files\MongoDB\Server\8.0\bin\mongod.exe" --replSet myReplSet --dbpath C:\data\db0 --port 27017 --bind_ip localhost
+The system cannot find the path specified.
+
+C:\Users\shaha>"C:\Program Files\MongoDB\Server\8.0\bin\mongod.exe" --replSet myReplSet --dbpath C:\data\db1 --port 27018 --bind_ip localhost
+The system cannot find the path specified.
+
+C:\Users\shaha>"C:\Program Files\MongoDB\Server\8.0\bin\mongod.exe" --replSet myReplSet --dbpath C:\data\db2 --port 27019 --bind_ip localhost
+The system cannot find the path specified.
+
+C:\Users\shaha>rs.initiate({
+'rs.initiate' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\shaha>    _id: "myReplSet",
+'_id:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\shaha>    members: [
+'members:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\shaha>        { _id: 0, host: "localhost:27017" },
+'{' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\shaha>        { _id: 1, host: "localhost:27018" },
+'{' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\shaha>        { _id: 2, host: "localhost:27019" }
+'{' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\shaha>    ]
+']' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\shaha>})
+'})' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\shaha>
